@@ -17,7 +17,7 @@ body{
    font-size: 68px;
    color: #FFFFFF;
 }
-
+/* базовая ознакомительная инфа(фотка интерьера и "о нас") */
 .about-foxes{
     display: flex;
     width: 100%;
@@ -39,6 +39,35 @@ body{
     margin-top: 3vh;
     height: 40vh;
 }
+.photo{
+    background-image: url("https://i.ibb.co/YBWDSDSd/image.png");
+    background-size: cover;
+    display: flex;
+    width: 60vh ;
+    height: 60vh;
+    align-content: center;
+    border-radius: 50px;
+}
+
+.diskr{
+    display: flex;
+}
+
+.season{
+    background-image: url("https://i.ibb.co/hR4C1PMw/kandinsky-download-1747499380816.png");
+    background-size: cover;
+}
+
+.drink{
+    background-image: url("https://i.ibb.co/xtZHDLNQ/kandinsky-download-1747499717446.png");
+    background-size: cover;
+}
+
+.dessert{
+    background-image: url("https://i.ibb.co/jZG7MrLr/kandinsky-download-1747499875038.png");
+    background-size: cover;
+}
+/* фотокарточки еды */
 
 .food{
     border-radius: 50px;
@@ -46,3 +75,55 @@ body{
     width: 30%;
 
 }
+/* блок с расписанием и меню */
+.rasp_menu{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3vh;
+    
+}
+
+.rasp{
+    display: flex;
+    background-color: #d9d9d9;
+    width: 40%;
+    height:60vh;
+    border-radius: 50px;
+    justify-content: center;
+}
+
+.menu{
+    display: flex;
+    background-color: #d9d9d9;
+    width: 40%;
+    height: 60vh;
+    border-radius: 50px;
+    justify-content: center;
+}
+
+.name_rasp{
+    width: 60%;
+    background-color: #E99140;
+    border-radius: 50px;
+    align-self: flex-start;
+    margin-top: 2vh;
+}
+
+.name_menu{
+    width: 60%;
+    background-color: #E99140;
+    border-radius: 50px;
+    align-self: flex-start;
+    margin-top: 2vh;
+
+}
+
+.text_rasp{
+    text-align: center;
+}
+
+.text_menu{
+    text-align: center;
+}
+
+/*  */
