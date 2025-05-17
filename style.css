@@ -1,1 +1,48 @@
 
+header{
+    background-color: #E99140;
+    border-radius: 50px;
+    height: 17vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    width: 100vw;
+}
+
+.title{
+   font-size: 68px;
+   color: #FFFFFF;
+}
+
+.about-foxes{
+    display: flex;
+    width: 100%;
+    justify-content:  space-evenly;
+    margin-top: 3vh;
+}
+
+.info{
+    width: 48%;
+    background-color: #d9d9d9;
+    border-radius: 50px;
+    height: 60vh;
+}
+
+.special-food{
+    display: flex;
+    width: 100%;
+    justify-content:  space-evenly;
+    margin-top: 3vh;
+    height: 40vh;
+}
+
+.food{
+    border-radius: 50px;
+    background-color: #d9d9d9;
+    width: 30%;
+
+}
