@@ -17,25 +17,50 @@ body{
    font-size: 68px;
    color: #FFFFFF;
 }
-/* базовая ознакомительная инфа(фотка интерьера и "о нас") */
+/*Блок "о нас" */
 .about-foxes{
     display: flex;
     width: 100%;
-    justify-content:  space-evenly;
-    margin-top: 3vh;
+    
 }
 
-.info{
+.tekst{
+    color:#E99140;
+    display: flex;
+    font-size: 42px;
+}
+
+.frase1{
+    display: flex;
+}
+
+.frase2{
+    display: flex;
+
+}
+
+.frase3{
+    display: flex;
+}
+
+.infodiskr{
+    display: flex;
+    flex-direction: column;
     width: 48%;
     background-color: #d9d9d9;
     border-radius: 50px;
     height: 60vh;
+    align-items: center;
+    justify-content: space-around;
 }
+
+
+/* Блок с едой */
 
 .special-food{
     display: flex;
     width: 100%;
-    justify-content:  space-evenly;
+    justify-content: space-evenly;
     margin-top: 3vh;
     height: 40vh;
 }
@@ -67,7 +92,6 @@ body{
     background-image: url("https://i.ibb.co/jZG7MrLr/kandinsky-download-1747499875038.png");
     background-size: cover;
 }
-/* фотокарточки еды */
 
 .food{
     border-radius: 50px;
@@ -75,6 +99,7 @@ body{
     width: 30%;
 
 }
+
 /* блок с расписанием и меню */
 .rasp_menu{
     display: flex;
@@ -89,7 +114,17 @@ body{
     width: 40%;
     height:60vh;
     border-radius: 50px;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+}
+
+.raspitself{
+    display: flex;
+}
+    
+li{
+    padding-top: 35px;
 }
 
 .menu{
@@ -105,7 +140,6 @@ body{
     width: 60%;
     background-color: #E99140;
     border-radius: 50px;
-    align-self: flex-start;
     margin-top: 2vh;
 }
 
@@ -113,7 +147,6 @@ body{
     width: 60%;
     background-color: #E99140;
     border-radius: 50px;
-    align-self: flex-start;
     margin-top: 2vh;
 
 }
