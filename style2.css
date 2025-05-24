@@ -1,0 +1,126 @@
+header{
+    background-color: #E99140;
+    border-radius: 50px;
+    height: 17vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    width: 100vw;
+}
+
+.title{
+   font-size: 45px;
+   color: #FFFFFF;
+}
+
+.dessert{
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+   color: #E99140;
+}
+
+.dessert-foto{
+    display: flex;
+    width: 100%;
+    justify-content:  space-evenly;
+    margin-top: 3vh;
+    height: 60vh;
+}
+
+.food{
+    border-radius: 50px;
+    background-color: #d9d9d9;
+    width: 30%;
+}
+
+.foto1{
+background-image: url("https://i.ibb.co/XZRtkRr0/kandinsky-download-1748104377302.png");
+background-size: cover;
+}
+
+.foto2{
+background-image: url("https://i.ibb.co/SWvB6cg/kandinsky-download-1748104419031.png");
+background-size: cover;
+    }
+
+.foto3{
+ background-image: url("https://i.ibb.co/TqT4B8yS/kandinsky-download-1748104501320.png");
+ background-size: cover;
+        }
+
+.bablt{
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+   color: #E99140;
+ }
+        
+.babl-foto{
+    display: flex;
+    width: 100%;
+    justify-content:  space-evenly;
+    margin-top: 3vh;
+    height: 60vh;
+}
+        
+.babl{
+    border-radius: 50px;
+    background-color: #d9d9d9;
+    width: 30%;
+}
+        
+.babl-foto1{
+background-image: url("https://i.ibb.co/KjJ9r4Hg/kandinsky-download-1748103956702.png");
+background-size: cover;
+}
+        
+.babl-foto2{
+background-image: url("https://i.ibb.co/60CPydHy/kandinsky-download-1748104080985.png");
+background-size: cover;
+}
+        
+.babl-foto3{
+ background-image: url("https://i.ibb.co/20XBHwNP/kandinsky-download-1748104114659.png");
+ background-size: cover;
+}
+
+.cof{
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+   color: #E99140;
+ }
+        
+.cofe-foto{
+    display: flex;
+    width: 100%;
+    justify-content:  space-evenly;
+    margin-top: 3vh;
+    height: 60vh;
+}
+        
+.cofe{
+    border-radius: 50px;
+    background-color: #d9d9d9;
+    width: 30%;
+}
+        
+.cofe-foto1{
+background-image: url("https://posudamart.ru/collection/99/77/667799.jpg");
+background-size: cover;
+}
+        
+.cofe-foto2{
+background-image: url("https://naked-science.ru/wp-content/uploads/2016/04/article_coffee-coffee-2560x1920-wallpaper-2106574.jpg");
+background-size: cover;
+}
+        
+.cofe-foto3{
+ background-image: url("https://media-cdn.tripadvisor.com/media/photo-s/1a/61/7a/89/caption.jpg");
+ background-size: cover;
+}
