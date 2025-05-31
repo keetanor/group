@@ -1,14 +1,84 @@
 .BM {
+    display: flex;
     width: 80vw; 
     height: 10vw;
-    background-color: gray;
-    margin-left: 10vw;
+    background-color: gray; 
+    align-items: center;
+    /* margin-left: 10vw;
     margin-top: 1vw;
     padding-left: 10% ;
-    padding-top: 2%;
+    padding-top: 2%; */
+    
+    
 }
 .N{
-    width: 15vw;
-    height: 9vw;
+    width: 15%;
+    height: 90%;
     background-color: white;
+    margin-left: 1%;
+}
+.ND {
+    display: flex; 
+    flex-direction: column ; 
+    align-items: center;
+    gap: 20px;
+}
+
+
+.L {
+    display: flex;
+    width: 80vw; 
+    height: 5vw;
+    background-color: gray; 
+    align-items: center;
+
+
+
+}
+
+.G{
+    display: flex;
+    width: 70vw; 
+    height: 5vw;
+    background-color: gray; 
+    align-items: center;
+
+}
+
+.F{
+    display: flex; 
+    flex-direction: column ; 
+    gap: 20px;
+}
+
+.K{
+    display: flex;
+    width: 50vw; 
+    height: 5vw;
+    background-color: gray; 
+    align-items: center; 
+}
+
+.S{
+    display: flex;
+    width: 80vw; 
+    height: 5vw;
+    background-color: gray; 
+    align-items: center;     
+}
+
+.D{
+    display: flex;
+    width: 30vw; 
+    height: 10vw;
+    background-color: gray; 
+    align-items: center; 
+}
+
+.W{
+    display: flex;
+    width: 80vw; 
+    height: 15vw;
+    background-color: gray; 
+    align-items: center;   
 }
