@@ -48,10 +48,10 @@ body{
 .infodiskr{
     display: flex;
     flex-direction: column;
-    width: 48%;
+    width: 45%;
     background-color: #d9d9d9;
     border-radius: 50px;
-    height: 60vh;
+    /* height: 60vh; */
     align-items: center;
     justify-content: space-around;
 }
@@ -64,14 +64,14 @@ body{
     width: 100%;
     justify-content: space-evenly;
     margin-top: 3vh;
-    height: 40vh;
+    /* height: 40vh; */
 }
 .photo{
     background-image: url("https://i.ibb.co/YBWDSDSd/image.png");
     background-size: cover;
     display: flex;
-    width: 60vh ;
-    height: 60vh;
+    width: 45% ;
+    /* height: 60vh; */
     align-content: center;
     border-radius: 50px;
 }
@@ -114,11 +114,12 @@ body{
     display: flex;
     background-color: #d9d9d9;
     width: 40%;
-    height:60vh;
+    /* height:60vh; */
     border-radius: 50px;
     flex-direction: column;
     align-items: center;
     gap:20px;
+    justify-content:center;
 }
 
 .raspitself{
@@ -133,7 +134,7 @@ li{
     display: flex;
     background-color: #d9d9d9;
     width: 40%;
-    height: 60vh;
+    /* height: 60vh; */
     border-radius: 50px;
     justify-content: center;
 }
