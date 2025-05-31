@@ -64,7 +64,7 @@ body{
     width: 100%;
     justify-content: space-evenly;
     margin-top: 3vh;
-    /* height: 40vh; */
+    height: 60vh;
 }
 .photo{
     background-image: url("https://i.ibb.co/YBWDSDSd/image.png");
@@ -136,7 +136,9 @@ li{
     width: 40%;
     /* height: 60vh; */
     border-radius: 50px;
-    justify-content: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
 }
 
 .name_rasp{
@@ -151,6 +153,7 @@ li{
     background-color: #E99140;
     border-radius: 50px;
     margin-top: 2vh;
+    height: 15vh;
 
 }
 
@@ -162,4 +165,37 @@ li{
     text-align: center;
 }
 
-/*  */
+.shop{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 3vh;
+    height: 60vh;
+
+}
+
+.gift{
+
+ border-radius: 50px;
+background-color: #d9d9d9;
+width: 30%;   
+}
+
+.T-shirt{
+    background-image: url("https://i.ibb.co/xtZHDLNQ/kandinsky-download-1747499717446.png");
+    background-size: cover;
+}
+
+.hoodie{
+    background-image: url("https://i.ibb.co/xtZHDLNQ/kandinsky-download-1747499717446.png");
+    background-size: cover;
+}
+
+.cup{
+    background-image: url("https://i.ibb.co/xtZHDLNQ/kandinsky-download-1747499717446.png");
+    background-size: cover;
+}
+
+.dess{
+    
+}
